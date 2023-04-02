@@ -19,11 +19,21 @@ Click on **64-bit Git for Windows Setup** below **Standalone Installer**
 
 Run *Git Bash*
 
-	cd cd:\
+	cd cd:/
 	mkdir Informator
 	cd Informator
-	git clone https://github.com/happy-bits/StudentCSharp Student
+	git clone https://github.com/happy-bits/StudentCSharp Cloud
 
 ![](git.png)
 
 (shift insert to paste text in Git Bash)
+
+# New material
+
+If the teacher add new material, just do **git pull** in the folder c:/Informator/Cloud
+
+![](git-pull.png)
+
+
+
+	
