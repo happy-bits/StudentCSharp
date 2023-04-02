@@ -9,7 +9,7 @@ Select **Free download** under Community
 
 Run the installation
 
-# GIT
+# Setup GIT
 
 Go to this page:
 
@@ -18,6 +18,8 @@ https://git-scm.com/download/win
 Click on **64-bit Git for Windows Setup** below **Standalone Installer**
 
 Run *Git Bash*
+
+Enter the following commands:
 
 	cd cd:/
 	mkdir Informator
