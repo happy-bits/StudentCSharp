@@ -12,15 +12,14 @@ public class Demo3
             new Person ("Zelda",  45)
         };
 
-
-        foreach (Person p in people.Where(IsChild))
-        {
-            Console.WriteLine($"* {p.FirstName}");
-        }
-
         Func<Person, bool> filter;
 
         filter = IsChild;
+
+        foreach (Person p in people.Where(filter))
+        {
+            Console.WriteLine($"* {p.FirstName}");
+        }
 
         // Vi kan i efterhand ångra oss och byta ut filterfunktionen till något annat:
 
